@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.caluculate {
+  margin: 100px auto;
+}
+
+.wrapper {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.wrapper > #number-text {
+  width: 285px;
+  height: 54px;
+  line-height: 54px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  /* padding: 4px; */
+  font-size: 48px;
+  border: 1px solid black;
+  /* 右から左へ入力するためのスタイル */
+  text-align: right;
+}
+
+.other-btns {
+  margin: 0 auto;
+  width: 300px;
+}
+
+#clear-btn {
+  width: 200px;
+  margin-left: 5px;
+  font-size: 24px;
+  /* 上下のズレを直すためのスタイル */
+  vertical-align: middle;
+}
+
+#btns {
+  width: 300px;
+  display: flex;
+  margin: auto;
+}
+
+button {
+  width: 65px;
+  height: 57px;
+}
+
+#num-btns {
+  margin: 5px;
+}
+
+#num-btns > button {
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+
+/* #num-btns > button:last-child {
+width: 136px;
+} */
+
+#symbol-btns {
+  height: 228px;
+  display: flex;
+  flex-direction: column;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+#symbol-btns > button {
+  margin-bottom: 5px;
+  height: 57px;
+  font-size: 24px;
+  text-align: center;
+}
